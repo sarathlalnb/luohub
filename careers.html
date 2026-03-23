@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LUO Hub - Careers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <link href="img/Luo Symbol White.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Fonts -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      /* Page header background for Careers */
+      .page-header {
+        background: url('./img/careers-bg.jpg') center center / cover no-repeat;
+        position: relative;
+        color: #fff;
+      }
+
+      .page-header:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.55); /* dark overlay for readability */
+        z-index: 1;
+      }
+
+      .page-header .container {
+        position: relative;
+        z-index: 2; /* place text above overlay */
+      }
+
+      .page-header h1 {
+        color: #fff !important;
+      }
+
+      .career-card {
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+      }
+
+      .career-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .benefit-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .benefit-list li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #b5b5b5;
+      }
+
+      .benefit-list li i {
+        color: #007bff;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+          <img style="width: 200px" src="./img/logopngW.png" alt="" />
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <a href="careers.html" class="nav-item nav-link active">Careers</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <div class="page-header pb-5">
+        <div class="container text-center py-5">
+          <h1 class="display-4 text-uppercase mb-3 animated slideInDown">
+            Join Our Team
+          </h1>
+          <p class="fs-5 animated slideInDown">
+            Shape the future of creative storytelling and digital marketing
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Careers Intro Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="title wow fadeInUp">
+              <div class="title-left">
+                <h5>Careers</h5>
+                <h1>Why Join LUO Hub?</h1>
+              </div>
+            </div>
+            <p class="mb-4">
+              At LUO Hub, we believe in fostering creativity, innovation, and collaboration. 
+              Join a dynamic team where your ideas matter, your skills are valued, and your 
+              growth is prioritized. We're looking for passionate individuals ready to make 
+              an impact in the world of digital marketing and content creation.
+            </p>
+            <p>
+              Whether you're a seasoned professional or just starting your career, LUO Hub 
+              offers opportunities to work on exciting projects, learn cutting-edge skills, 
+              and contribute to brands that are making a difference.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid rounded wow fadeInUp" src="./img/team-collaboration.jpg" alt="Team Collaboration" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Careers Intro End -->
+
+    <!-- Benefits Start -->
+    <!-- <div class="container-fluid py-5 bg-dark">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <div class="title wow fadeInUp">
+            <div class="title-center">
+              <h5>Benefits</h5>
+              <h1>What We Offer</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="benefit-list wow fadeInLeft">
+              <li><i class="fa fa-check-circle"></i> Competitive salary and performance bonuses</li>
+              <li><i class="fa fa-check-circle"></i> Flexible working hours and remote work options</li>
+              <li><i class="fa fa-check-circle"></i> Professional development and training programs</li>
+              <li><i class="fa fa-check-circle"></i> Health and wellness benefits</li>
+              <li><i class="fa fa-check-circle"></i> Creative and collaborative work environment</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul class="benefit-list wow fadeInRight">
+              <li><i class="fa fa-check-circle"></i> Opportunities for career advancement</li>
+              <li><i class="fa fa-check-circle"></i> Work on diverse and exciting projects</li>
+              <li><i class="fa fa-check-circle"></i> Access to latest tools and technologies</li>
+              <li><i class="fa fa-check-circle"></i> Team building events and company retreats</li>
+              <li><i class="fa fa-check-circle"></i> Positive impact on growing brands</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Benefits End -->
+
+    <!-- Open Positions Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <div class="title wow fadeInUp">
+            <div class="title-center">
+              <h5>Opportunities</h5>
+              <h1>Open Positions</h1>
+            </div>
+          </div>
+        </div>
+          <h4 class="text-warning text-center mb-3">
+  No openings right now, but we’d love to hear from you in the future.
+</h4>
+
+        <!-- <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="career-card wow fadeInUp">
+              <h4 class="text-warning mb-3">Video Producer</h4>
+              <p class="mb-3">Create compelling video content for our clients using the latest production techniques.</p>
+              <ul class="list-unstyled">
+                <li><strong>Location:</strong> Trivandrum, Kerala</li>
+                <li><strong>Type:</strong> Full-time</li>
+                <li><strong>Experience:</strong> 2+ years</li>
+              </ul>
+              <a href="mailto:careers@luohub.com" class="btn btn-primary mt-3">Apply Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="career-card wow fadeInUp" data-wow-delay="0.2s">
+              <h4 class="text-warning mb-3">Digital Marketing Specialist</h4>
+              <p class="mb-3">Develop and execute digital marketing strategies to drive brand growth and engagement.</p>
+              <ul class="list-unstyled">
+                <li><strong>Location:</strong> Trivandrum, Kerala</li>
+                <li><strong>Type:</strong> Full-time</li>
+                <li><strong>Experience:</strong> 1+ years</li>
+              </ul>
+              <a href="mailto:careers@luohub.com" class="btn btn-primary mt-3">Apply Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="career-card wow fadeInUp" data-wow-delay="0.4s">
+              <h4 class="text-warning mb-3">Content Creator</h4>
+              <p class="mb-3">Craft engaging written and visual content that tells compelling brand stories.</p>
+              <ul class="list-unstyled">
+                <li><strong>Location:</strong> Trivandrum, Kerala</li>
+                <li><strong>Type:</strong> Full-time</li>
+                <li><strong>Experience:</strong> Entry-level</li>
+              </ul>
+              <a href="mailto:careers@luohub.com" class="btn btn-primary mt-3">Apply Now</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Open Positions End -->
+
+    <!-- Application Process Start -->
+    <div class="container-fluid py-5 bg-dark">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <div class="title wow fadeInUp">
+            <div class="title-center">
+              <h5>Process</h5>
+              <h1>How to Apply</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center mb-4">
+            <div class="wow fadeInUp">
+              <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                <span class="text-white fs-2 fw-bold">1</span>
+              </div>
+              <h5 class="text-warning">Submit Your Resume</h5>
+              <p>Send your resume and portfolio to info@luohub.com with the position title in the subject line.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                <span class="text-white fs-2 fw-bold">2</span>
+              </div>
+              <h5 class="text-warning">Initial Screening</h5>
+              <p>Our team will review your application and get back to you within 5-7 business days.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <div class="wow fadeInUp" data-wow-delay="0.4s">
+              <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                <span class="text-white fs-2 fw-bold">3</span>
+              </div>
+              <h5 class="text-warning">Interview & Join</h5>
+              <p>Successful candidates will be invited for an interview. Welcome to the LUO Hub family!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Application Process End -->
+
+    <!-- Footer Start -->
+    <div class="container text-center py-5">
+      <img src="./img/logopngW.png" alt="" class="w-25 my-5"/>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html></content>
