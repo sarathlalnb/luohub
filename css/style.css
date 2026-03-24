@@ -184,6 +184,12 @@
     margin-bottom: 2rem;
 }
 
+   .title .title-left h1,
+   .title .title-center h1,
+   .title .title-right h1 {
+       text-transform: none !important;
+   }
+
 .title .title-left,
 .title .title-center,
 .title .title-right {
@@ -398,6 +404,24 @@
 	100% {
         background-position: -1000px 0;
     }
+
+}
+
+/* Hide scrollbars across browsers while allowing scrolling */
+/* WebKit (Chrome, Safari, Edge) */
+html::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* Firefox */
+html {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* IE 10+ */
+html {
+    -ms-overflow-style: none;
 }
 
 .footer {
