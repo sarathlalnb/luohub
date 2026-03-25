@@ -187,7 +187,7 @@
    .title .title-left h1,
    .title .title-center h1,
    .title .title-right h1 {
-       text-transform: none !important;
+       text-transform: uppercase !important;
    }
 
 .title .title-left,
